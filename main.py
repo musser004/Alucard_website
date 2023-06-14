@@ -34,21 +34,21 @@ def index():
 # Portfolio project 1 page setup
 
 
-@app.route("/portfolio-1")
+@app.route("/portfolio-1.html")
 def portfolio_1():
     return render_template("portfolio-1.html")
 
 # Portfolio project 2 page setup
 
 
-@app.route("/portfolio-2")
+@app.route("/portfolio-2.html")
 def portfolio_2():
     return render_template("portfolio-2.html")
 
 # Portfolio project 3 page setup
 
 
-@app.route("/portfolio-3")
+@app.route("/portfolio-3.html")
 def portfolio_3():
     return render_template("portfolio-3.html")
 
