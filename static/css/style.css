@@ -1461,3 +1461,34 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Contact Form
+--------------------------------------------------------------*/
+#Contact_Form {
+    font-weight: bold;
+}
+
+#submit {
+    margin-top: 1rem;
+}
+
+#name {
+    margin: 0.5rem 0 0.5rem;
+}
+
+#email {
+    margin: 0.5rem 0 0.5rem;
+}
+
+#phone {
+    margin: 0.5rem 0 0.5rem;
+}
+
+#cke_message {
+    margin: 0.5rem 0 0.5rem;
+}
+
+.help-block {
+    color: red;
+}
