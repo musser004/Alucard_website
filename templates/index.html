@@ -487,7 +487,8 @@ You don't need eyesight to see that this cat knows how to do his job.
 
                         {{ ckeditor.load() }}
         {{ ckeditor.config(name='body') }}
-      {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+
+      {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}, id="Contact_Form")}}
 
                 {% endblock %}
     </div>
